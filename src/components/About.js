@@ -77,11 +77,11 @@ const About = () => {
             </div>
             <div className="col-span-2">
               <h3 className="text-gray-50 text-lg font-medium">
-                Full time Web Developer
+                Full Stack Developer
               </h3>
               <p className="text-gray-400 font-medium">
                 Currently I am working remotely in a company as a React
-                Developer and sometimes I also handle some backend side in
+                Developer and, I also handle some backend work in
                 Node.js to stay in sync with the develeopment team.
               </p>
             </div>
