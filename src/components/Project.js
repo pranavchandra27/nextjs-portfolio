@@ -14,14 +14,14 @@ const Project = () => {
         latest technologies.
       </p>
       <div className="flex mt-16 justify-center">
-        <div className="grid gap-10 grid-cols-1 md:grid-cols-2 max-w-3xl">
+        <div className="md:grid md:grid-cols-2 md:gap-5 max-w-3xl">
           {projects.map((project, idx) => (
             <div
               key={idx}
-              className="shadow-lg bg-gray-800 rounded overflow-hidden text-center w-full"
+              className="mb-5 md:mb-0 shadow-lg overflow-hidden bg-gray-800 rounded text-center"
             >
               <img src={`${project.image}.png`} className="h-2/5 w-full object-cover" alt="Project 1" />
-              <div className="px-4">
+              <div className="px-4 h-3/5">
                 <p className="mt-6 text-xl text-gray-200">{project.name}</p>
                 <p className="mt-6 text-md text-gray-200">
                   {project.description}
