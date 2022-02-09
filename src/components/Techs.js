@@ -5,10 +5,10 @@ const Techs = () => {
   return (
     <section className="mt-20" id='tech'>
       <div className="h-1.5 mb-10 w-20 rounded bg-gradient-to-r from-green-400 to-blue-500" />
-      <h2 className="md:text-6xl text-3xl md:mb-10 mb-4 font-semibold text-gray-50">
+      <h2 className="md:text-6xl text-3xl md:mb-10 mb-2 font-semibold text-gray-50">
         Technologies
       </h2>
-      <p className="text-gray-400 md:text-xl text-lg font-medium max-w-xl">
+      <p className="text-gray-400 md:text-xl text-base md:font-medium max-w-xl">
         I have worked with a wide range of technologies from front-end to
         back-end.
       </p>

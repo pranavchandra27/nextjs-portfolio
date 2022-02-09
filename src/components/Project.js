@@ -1,14 +1,15 @@
 import React from "react";
 import projects from "src/helpers/projectsData";
+import {BiGitRepoForked, BiLayout} from 'react-icons/bi'
 
 const Project = () => {
   return (
     <section className="mt-10" id="projects">
       <div className="h-1.5 mb-10 w-20 rounded bg-gradient-to-r from-green-400 to-blue-500" />
-      <h2 className="md:text-6xl text-3xl md:mb-10 mb-4 font-semibold text-gray-50">
+      <h2 className="md:text-6xl text-3xl md:mb-10 mb-2 font-semibold text-gray-50">
         Projects
       </h2>
-      <p className="text-gray-400 md:text-xl text-lg font-medium">
+      <p className="text-gray-400 md:text-xl text-base md:font-medium">
         Here are some of the projects that I have build on using wide range of
         latest technologies.
       </p>
@@ -19,7 +20,7 @@ const Project = () => {
               key={idx}
               className="shadow-lg bg-gray-800 rounded overflow-hidden text-center w-full"
             >
-              <img src={`${project.image}.png`} alt="Project 1" />
+              <img src={`${project.image}.png`} className="h-2/5 w-full object-cover" alt="Project 1" />
               <div className="px-4">
                 <p className="mt-6 text-xl text-gray-200">{project.name}</p>
                 <p className="mt-6 text-md text-gray-200">
@@ -37,24 +38,27 @@ const Project = () => {
                 </div>
                 <div className="flex my-5 justify-between">
                   <a
+                    target='_blank'
                     href={project.code}
-                    className="rounded-lg text-white py-1.5 px-4 font-semibold bg-blue-500"
+                    className="rounded-lg text-white flex items-center py-1.5 px-3 font-semibold bg-blue-500 hover:bg-opacity-90"
                   >
-                    Repo
+                    <span className="mr-1 inline-flex"><BiGitRepoForked fontSize={18} /></span> Repo
                   </a>
                   {project.hasMoreUrl && (
                     <a
+                      target='_blank'
                       href={project.anotherUrl}
-                      className="rounded-lg text-white py-1.5 px-4 font-semibold bg-blue-500"
+                      className="rounded-lg text-white py-1.5 px-4 font-semibold bg-blue-500 hover:bg-opacity-90"
                     >
-                      Headless CMS
+                      CMS
                     </a>
                   )}
                   <a
+                    target='_blank'
                     href={project.view}
-                    className="rounded-lg bg-blue-500 text-white py-1.5 px-4 font-semibold"
+                    className="rounded-lg bg-blue-500 text-white flex items-center py-1.5 px-3 font-semibold hover:bg-opacity-90"
                   >
-                    View
+                    <span className="mr-1 inline-flex"><BiLayout fontSize={20} /></span> View
                   </a>
                 </div>
               </div>
