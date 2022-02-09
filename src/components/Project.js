@@ -35,13 +35,13 @@ const Project = () => {
                 </div>
                 <div className="flex my-5 justify-between">
                   <a href={project.code} className="rounded-lg text-white py-1.5 px-4 font-semibold bg-blue-500">
-                    Code
+                    Repo
                   </a>
                   {project.hasMoreUrl&& <a href={project.anotherUrl} className="rounded-lg text-white py-1.5 px-4 font-semibold bg-blue-500">
                     Headless CMS
                   </a>}
                   <a href={project.view} className="rounded-lg bg-blue-500 text-white py-1.5 px-4 font-semibold">
-                    Source
+                    View
                   </a>
                 </div>
               </div>
