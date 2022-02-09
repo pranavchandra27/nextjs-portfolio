@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: sans-serif
+}
+
 .bg-dark-primary {
   background-color: #0f1624;
 }

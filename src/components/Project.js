@@ -3,13 +3,13 @@ import projects from "src/helpers/projectsData";
 
 const Project = () => {
   return (
-    <section className="mt-10">
+    <section className="mt-10" id='projects'>
       <div className="h-1.5 mb-10 w-20 rounded bg-gradient-to-r from-green-400 to-blue-500" />
-      <h2 className="md:text-6xl text-4xl md:mb-10 mb-5 font-semibold text-gray-50">
+      <h2 className="md:text-6xl text-3xl md:mb-10 mb-4 font-semibold text-gray-50">
         Projects
       </h2>
       <p className="text-gray-400 md:text-xl text-lg font-medium">
-        Some projects that I have worked on using wide range of technologies.
+        Here are some of the projects that I have build on using wide range of latest technologies.
       </p>
       <div className="flex mt-16 justify-center">
         <div className="grid gap-10 grid-cols-1 md:grid-cols-2 max-w-3xl">
