@@ -11,7 +11,7 @@ const timelineData = [
     ),
   },
   {
-    time: "2018 - 2019",
+    time: "2018",
     subtitle: "My first gig",
     paragraph: (
       <>
@@ -24,7 +24,7 @@ const timelineData = [
     ),
   },
   {
-    time: "2020 - 2021",
+    time: "2019",
     subtitle: "Freelance work",
     paragraph: (
       <>
@@ -37,7 +37,7 @@ const timelineData = [
     ),
   },
   {
-    time: "2021 - 2022",
+    time: "2020",
     subtitle: "Full time work",
     paragraph: (
       <>
