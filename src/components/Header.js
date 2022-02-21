@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaFilePdf } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -19,11 +19,19 @@ const Header = () => {
               <FaLinkedinIn className="transition-colors duration-300 text-2xl text-gray-300 hover:text-green-400" />
             </a>
           </span>
-          <span title="Github Profile">
+          <span className="mr-5" title="Github Profile">
             <a href="https://github.com/pranavchandra27" target="_blank">
               <FaGithub
                 className="transition-colors duration-300 text-2xl text-gray-300 hover:text-green-400"
                 size={25}
+              />
+            </a>
+          </span>
+          <span title="Resume">
+            <a href="https://drive.google.com/file/d/1-fJGF9DoNFZilYO9Jk3WQzHU9WxKGY3m/view?usp=sharing" target="_blank">
+              <FaFilePdf
+                className="transition-colors duration-300 text-2xl text-gray-300 hover:text-green-400"
+                size={22}
               />
             </a>
           </span>

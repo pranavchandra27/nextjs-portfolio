@@ -17,7 +17,7 @@ const About = () => {
       </p>
       <ul className="bg-gray-700 p-5 max-w-2xl mx-auto md:mt-16 mt-8 rounded">
         {timelineData.map((timeline) => (
-          <li className="mb-5 last:mb-5">
+          <li key={timeline.time} className="mb-5 last:mb-5">
             <div className="grid grid-cols-3 gap-4">
               <div>
                 <time className="text-gray-50 text-base md:text-lg font-medium">
