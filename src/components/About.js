@@ -1,5 +1,5 @@
 import React from "react";
-import timelineData from "src/helpers/timelineDarta";
+import timelineData from "src/helpers/timelineData";
 
 const About = () => {
   return (
