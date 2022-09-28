@@ -35,7 +35,7 @@ const projects = [
   {
     name: "Music App",
     description:
-      "A music app with a really elegant looking UI built using Shazam API and TailwindCSS following the best practices and coding standards",
+      "A music app with a really elegant looking UI built using Shazam API and TailwindCSS following the best practices and coding standards with responsiveness",
     technologies: ["React.js", "TailwindCSS", "RapidAPI", ],
     image: "musicFM",
     code: "https://github.com/pranavchandra27/musicFM",
