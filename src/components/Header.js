@@ -28,7 +28,10 @@ const Header = () => {
             </a>
           </span>
           <span title="Resume">
-            <a href="https://drive.google.com/file/d/1RANq26sqvJ4s7Sg9HqXuZrL-bFM_QN-c/view?usp=sharing" target="_blank">
+            <a
+              href="https://drive.google.com/file/d/1ut0ZSuak1VF8yjHn39RldbgEteFfG1xC/view?usp=sharing"
+              target="_blank"
+            >
               <FaFilePdf
                 className="transition-colors duration-300 text-2xl text-gray-300 hover:text-green-400"
                 size={22}

@@ -7,12 +7,6 @@ const Footer = () => {
       <div className="h-1.5 mb-10 w-20 rounded bg-gradient-to-r from-green-400 to-blue-500" />
       <div className="h-px bg-gray-700 my-8" />
       <div className="flex sm:flex-row flex-col">
-        <div className="sm:flex-1">
-          <p className="text-gray-600 font-medium sm:mb-4 mb-2">Phone</p>
-          <a href="tel:+917785069323" className="text-gray-400 font-medium">
-            +91 77850-69323
-          </a>
-        </div>
         <div className="sm:flex-auto sm:m-0 mt-5">
           <p className="text-gray-600 font-medium sm:mb-4 mb-2">Email</p>
           <a
@@ -45,7 +39,10 @@ const Footer = () => {
             </a>
           </span>
           <span title="Resume">
-            <a href="https://drive.google.com/file/d/1-fJGF9DoNFZilYO9Jk3WQzHU9WxKGY3m/view?usp=sharing" target="_blank">
+            <a
+              href="https://drive.google.com/file/d/1-fJGF9DoNFZilYO9Jk3WQzHU9WxKGY3m/view?usp=sharing"
+              target="_blank"
+            >
               <FaFilePdf
                 className="transition-colors duration-300 text-2xl text-gray-300 hover:text-green-400"
                 size={22}

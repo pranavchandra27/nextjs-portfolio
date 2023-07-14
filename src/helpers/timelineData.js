@@ -4,13 +4,15 @@ const timelineData = [
     subtitle: "Beginning of my journey",
     paragraph: (
       <>
-        I started to learn web developement back in 2018 by taking online
-        courses from udemy, youtube and skillshare like platforms as I am a
-        self-taught developer while I was pursuing my bachelor's in mathematics,
-        also after some months I felt confident and I start to do freelancing in
-        upwork and freelancer.com like platform, during this I have worked on
-        real life projects directly with clients and gained professional
-        experience."
+        In 2018, I embarked on my journey into web development by enrolling in
+        online courses available on platforms such as Udemy, YouTube, and
+        Skillshare. As a self-taught developer concurrently pursuing my
+        bachelor's degree in mathematics, I dedicated myself to acquiring the
+        necessary skills. After a few months of diligent study, I gained
+        confidence in my abilities and began freelancing on platforms like
+        Upwork and Freelancer.com. This experience allowed me to collaborate
+        directly with clients on real-life projects, thereby honing my skills
+        and gaining valuable professional experience.
       </>
     ),
   },
@@ -20,12 +22,15 @@ const timelineData = [
     subtitle: "First gig",
     paragraph: (
       <>
-        After some months of freelance work in 2019 I started to work for a
-        company in a contract base and during this I was also studying and
-        working part-time and while working directly with a company I have
-        worked on a several high level projects and learned more new techniques
-        and technologies , I was also learning in my own some new stack like
-        <code className="bg-gray-900 px-1">Next.js, GraphQL</code> and more
+        In 2019, following several months of freelancing, I transitioned to
+        working with a company on a contractual basis. During this period, I
+        managed to balance my studies and part-time commitments alongside my
+        employment. Working directly with the company provided me with valuable
+        opportunities to contribute to numerous high-level projects, expanding
+        my skill set and knowledge of advanced techniques and technologies.
+        Moreover, I dedicated personal time to learning new stacks, such as
+        Next.js, GraphQL, and other relevant technologies, further enriching my
+        expertise.
       </>
     ),
   },
@@ -34,12 +39,14 @@ const timelineData = [
     subtitle: "Freelancing",
     paragraph: (
       <>
-        So as In 2020 pandemic arrived I started again full time freelance work
-        and as I already had some good reviews in my profile after starting for
-        some time I received some big projects to work on a long term and during
-        those projects I have worked on React.js, Next.js, Express backend and
-        MongoDB like stack, and I have worked on several Ui libraries like
-        Bootstrap, Material-UI, Semantic Ui etc
+        In 2020, amidst the onset of the pandemic, I resumed full-time freelance
+        work. Benefiting from positive reviews on my profile, I soon secured
+        substantial long-term projects. Throughout these endeavors, I
+        extensively utilized technologies such as React.js, Next.js, Express for
+        backend development, and MongoDB for database management. Additionally,
+        I proficiently employed various UI libraries including Bootstrap,
+        Material-UI, Semantic UI, among others, to deliver exceptional user
+        experiences for the projects I undertook.
       </>
     ),
   },
@@ -48,18 +55,15 @@ const timelineData = [
     subtitle: "Full time work",
     paragraph: (
       <>
-        After completing my bachelor's I started to work full-time as a Full
-        Stack Developer and delivering some high quality work, aside that I
-        build personal projects using latest technologies. for example you can
-        check my{" "}
-        <a href="#projects" className="underline cursor-pointer">
-          Projects
-        </a>{" "}
-        section. and right now my favorite technologies to work with are{" "}
-        <code className="bg-gray-900 px-1">
-          React.js, Next.js, Material-UI, Node.js, Redux, Firebase
-        </code>{" "}
-        and more
+        Upon completing my bachelor's degree, I transitioned into a full-time
+        role as a Full Stack Developer, where I consistently delivered
+        high-quality work. In addition to my professional endeavors, I also
+        dedicated time to building personal projects using the latest
+        technologies. Feel free to explore the "Projects" section to gain
+        insight into my creations. Presently, my preferred technologies for
+        development encompass React.js, Next.js, Material-UI, Node.js, Redux,
+        Firebase, and more. These tools enable me to craft robust and dynamic
+        solutions that meet the needs of modern applications.
       </>
     ),
   },
