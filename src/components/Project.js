@@ -1,72 +1,63 @@
 import React from "react";
 import projects from "src/helpers/projectsData";
-import { BiGitRepoForked, BiLayout } from "react-icons/bi";
 
 const Project = () => {
   return (
-    <section className="mt-10" id="projects">
-      <div className="h-1.5 mb-10 w-20 rounded bg-gradient-to-r from-green-400 to-blue-500" />
-      <h2 className="md:text-6xl text-3xl md:mb-10 mb-2 font-semibold text-gray-50">
-        Projects
-      </h2>
-      <p className="text-gray-400 md:text-xl text-base md:font-medium max-w-4xl">
-        Here are some of the personal projects that I have built on using wide
-        range of latest technologies, there are a lot more then just this,
-        contact me to find out more about it
-      </p>
-      <div className="flex mt-16 justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mx-auto w-full">
-          {projects.map((project, idx) => (
+    <section id="projects" className="py-12">
+      <div className="container mx-auto">
+        <div className="h-1 mb-2 w-20 rounded bg-gradient-to-r from-green-400 to-blue-500" />
+        <h2 className="text-xl md:text-3xl mb-2 font-bold text-gray-800 dark:text-gray-50">
+          Projects
+        </h2>
+        <p className="text-gray-500 dark:text-gray-300 md:text-lg font-light max-w-4xl">
+          Some of the recent work and personal projects.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+          {projects.map((project, index) => (
             <div
-              key={idx}
-              className="shadow-lg overflow-hidden bg-gray-800 rounded text-center"
+              key={index}
+              className="bg-white dark:bg-gray-800 border border-gray-200 rounded-lg shadow hover:shadow-lg p-6 transition-shadow dark:border-gray-700"
             >
-              <div className="p-4">
-                <p className="text-2xl text-gray-200 font-medium">
-                  {project.name}
-                </p>
-                <p className="mt-10 text-md text-gray-200">
+              <img
+                src={`${project.image}.png`}
+                alt={project.title}
+                className="rounded-md mb-4"
+              />
+
+              <div className="flex flex-col">
+                <h3 className="md:text-2xl text-lg font-semibold">
+                  {project.title}
+                </h3>
+                <p className="mt-2 md:h-40 xl:h-32 text-gray-600 dark:text-gray-400 font-light">
                   {project.description}
                 </p>
-                <div className="flex flex-wrap mt-10 -ml-2">
-                  {project.technologies.map((tech) => (
-                    <div
-                      key={tech}
-                      className="ml-2 mb-2 bg-white cursor-default hover:bg-blue-500 text-gray-700  hover:text-white rounded-md p-2"
-                    >
-                      <p className="text-xs font-medium">{tech}</p>
-                    </div>
-                  ))}
-                </div>
-                <div className="flex my-5 justify-between">
+                <p className="mt-4 text-gray-600 dark:text-gray-400">
+                  <strong className="dark:text-white">Technologies:</strong>{" "}
+                  {project.technologies.join(", ")}
+                </p>
+                <div className="mt-4">
                   <a
+                    href={project.link}
                     target="_blank"
-                    href={project.code}
-                    className="rounded-lg text-white flex items-center py-1.5 px-3 font-semibold bg-blue-500 hover:bg-opacity-90"
+                    className="text-blue-500 cursor-pointer hover:underline mr-4"
                   >
-                    <span className="mr-1 inline-flex">
-                      <BiGitRepoForked fontSize={18} />
-                    </span>{" "}
-                    Repo
+                    Live Demo
                   </a>
                   {project.hasMoreUrl && (
                     <a
-                      target="_blank"
                       href={project.anotherUrl}
-                      className="rounded-lg text-white py-1.5 px-4 font-semibold bg-blue-500 hover:bg-opacity-90"
+                      target="_blank"
+                      className="text-blue-500 cursor-pointer hover:underline mr-4"
                     >
-                      CMS
+                      View Backend
                     </a>
                   )}
                   <a
+                    href={project.github}
                     target="_blank"
-                    href={project.view}
-                    className="rounded-lg bg-blue-500 text-white flex items-center py-1.5 px-3 font-semibold hover:bg-opacity-90"
+                    className="text-blue-500 cursor-pointer hover:underline"
                   >
-                    <span className="mr-1 inline-flex">
-                      <BiLayout fontSize={20} />
-                    </span>{" "}
-                    View
+                    GitHub
                   </a>
                 </div>
               </div>

@@ -4,11 +4,12 @@ import { FaLinkedinIn, FaGithub, FaFilePdf } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="mt-10">
-      <div className="h-1.5 mb-10 w-20 rounded bg-gradient-to-r from-green-400 to-blue-500" />
       <div className="h-px bg-gray-700 my-8" />
       <div className="flex sm:flex-row flex-col">
         <div className="sm:flex-auto sm:m-0 mt-5">
-          <p className="text-gray-600 font-medium sm:mb-4 mb-2">Email</p>
+          <p className="text-gray-600 dark:text-gray-200 font-bold sm:mb-4 mb-2">
+            Email:
+          </p>
           <a
             href="mailto:pranavchandra27@gmail.com"
             className="text-gray-400 font-medium"
