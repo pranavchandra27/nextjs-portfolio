@@ -1,17 +1,15 @@
 import React from "react";
-import Header from "./Header";
 import BackgroundAnimation from "./BackgroundAnimation";
 
 const Hero = () => {
   return (
     <div className="block" id="hero">
-      <Header />
-      <div className="mt-16 flex relative w-full h-2/3">
+      <div className="flex relative w-full h-2/3">
         <div className="max-w-screen-sm">
-          <h1 className="md:text-left text-center mb-4 md:mb-8 max-w-2xl text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-gray-600 dark:from-gray-300 to-gray-800 dark:to-gray-100">
+          <h1 className="mb-4 md:mb-8 max-w-2xl text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-gray-600 dark:from-gray-300 to-gray-800 dark:to-gray-100">
             Welcome to my personal portfolio
           </h1>
-          <p className="font-light text-center md:text-left text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+          <p className="leading-relaxed font-light tracking-tight text-gray-500 lg:mb-8 text-lg dark:text-gray-400">
             Hey there! I am a skilled{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 font-bold">
               Frontend Developer{" "}

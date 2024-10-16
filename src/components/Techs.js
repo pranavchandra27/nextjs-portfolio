@@ -17,29 +17,29 @@ const Techs = () => {
           <span className="text-gray-800 dark:text-gray-50">
             <FaReact size={25} />
           </span>
-          <h3 className="md:text-3xl text-xl font-bold text-gray-800 dark:text-gray-50 my-2">
+          <h3 className="md:text-3xl text-xl font-bold text-gray-600 dark:text-gray-300 my-2">
             Frontend
           </h3>
-          <p className="text-lg text-gray-600 dark:text-gray-400">
+          <p className="text-base text-gray-500 dark:text-gray-400">
             Experience with
           </p>
           {"\n"}
-          <p className="text-lg text-gray-600 dark:text-gray-400 md:max-w-72">
-            ReactJs, NextJs, React Native, Ionic.
+          <p className="text-base text-gray-500 dark:text-gray-400 md:max-w-72">
+            ReactJs, Redux, NextJs, React Native, Ionic, Tailwind CSS.
           </p>
         </div>
         <div className="md:mb-0 mb-5">
           <span className="text-gray-800 dark:text-gray-50">
             <FaServer size={25} />
           </span>
-          <h3 className="md:text-3xl text-xl font-bold text-gray-800 dark:text-gray-50 my-2">
+          <h3 className="md:text-3xl text-xl font-bold text-gray-600 dark:text-gray-300 my-2">
             Backend
           </h3>
-          <p className="text-lg text-gray-600 dark:text-gray-400">
+          <p className="text-base text-gray-500 dark:text-gray-400">
             Experience with
           </p>
           {"\n"}
-          <p className="text-lg text-gray-600 dark:text-gray-400 md:max-w-72">
+          <p className="text-base text-gray-500 dark:text-gray-400 md:max-w-72">
             NodeJs, ExpressJs, MongoDB, GraphQL.
           </p>
         </div>
@@ -47,14 +47,14 @@ const Techs = () => {
           <span className="text-gray-800 dark:text-gray-50">
             <FaFigma size={25} />
           </span>
-          <h3 className="md:text-3xl text-xl font-bold text-gray-800 dark:text-gray-50 my-2">
+          <h3 className="md:text-3xl text-xl font-bold text-gray-600 dark:text-gray-300 my-2">
             UX/UI
           </h3>
-          <p className="text-lg text-gray-600 dark:text-gray-400">
+          <p className="text-base text-gray-500 dark:text-gray-400">
             Experience with
           </p>
           {"\n"}
-          <p className="text-lg text-gray-600 dark:text-gray-400 md:max-w-72">
+          <p className="text-base text-gray-500 dark:text-gray-400 md:max-w-72">
             tools like Figma, Adobe photoshop.
           </p>
         </div>

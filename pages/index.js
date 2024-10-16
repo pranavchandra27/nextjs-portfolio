@@ -3,6 +3,7 @@ import Projects from "@components/Project";
 import Technologies from "@components/Techs";
 import About from "@components/About";
 import Footer from "@components/Footer";
+import Header from "src/components/Header";
 import Head from "next/head";
 
 export default function Home() {
@@ -15,8 +16,11 @@ export default function Home() {
           content="Portfolio of Pranav Chandra showcasing projects and skills."
         />
       </Head>
-      <div className="mx-auto lg:max-w-7xl w-11/12">
-        {/* Header and Navbar */}
+
+      <Header />
+
+      <div className="mx-auto lg:max-w-7xl w-11/12 my-10">
+        {/* Header */}
         <Hero />
 
         {/* Projects */}
@@ -27,10 +31,9 @@ export default function Home() {
 
         {/* About me */}
         <About />
-
-        {/* Footer section */}
-        <Footer />
       </div>
+      {/* Footer section */}
+      <Footer />
     </div>
   );
 }
