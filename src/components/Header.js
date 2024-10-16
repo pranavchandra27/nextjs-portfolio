@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { FaLinkedinIn, FaGithub, FaFilePdf } from "react-icons/fa";
 
 const Header = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
     if (theme === "dark") {
